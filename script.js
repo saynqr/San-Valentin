@@ -1,9 +1,9 @@
-document.getElementById('yes-btn').addEventListener('click', function() {
-    document.getElementById('answer').textContent = "¡Yay! ¡Estoy muy feliz! 💖";
-    document.getElementById('answer').style.color = '#4caf50';
+document.getElementById("yes-btn").addEventListener("click", function() {
+    document.getElementById("answer").innerHTML = "¡Qué alegría! ❤️";
+    document.getElementById("answer").style.color = "green";
 });
 
-document.getElementById('no-btn').addEventListener('click', function() {
-    document.getElementById('answer').textContent = "¡Lo siento! 😢 Pero siempre seremos amigos. 💕";
-    document.getElementById('answer').style.color = '#f44336';
+document.getElementById("no-btn").addEventListener("click", function() {
+    document.getElementById("answer").innerHTML = "¡Lo intentaré otro año! 😅";
+    document.getElementById("answer").style.color = "red";
 });
